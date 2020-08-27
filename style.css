@@ -18,7 +18,7 @@ body{
     background-color: #141414;
     z-index: 1;
     top: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 #profile{
     width: fit-content;
@@ -26,7 +26,7 @@ body{
     position: absolute;
     top: 50px;
     left: 50px;
-    transition: 1s;
+    transition: 0.5s;
 }
 #profileImageOutline{
     float: left;
@@ -34,7 +34,7 @@ body{
     height: 188px;
     border: 6px solid #990000;
     border-radius: 100px;
-    transition: 1s;
+    transition: 0.5s;
 }
 #profilePict{
     width: 90%;
@@ -44,7 +44,7 @@ body{
     margin-left: 4%;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
-    transition: 1s;
+    transition: 0.5s;
 }
 #introduction{
     float: left;
@@ -53,7 +53,7 @@ body{
     top: 100px;
     position: absolute;
     height: fit-content;
-    transition: 1s;
+    transition: 0.5s;
 }
 #hiThere{
     font-family: 'Roboto', sans-serif;
@@ -63,7 +63,7 @@ body{
     margin: 0;
     padding: 0;
     visibility: visible;
-    transition: 0.4s ;
+    transition: 0.5s ;
 }
 #im{
     font-family: 'Roboto', sans-serif;
@@ -74,7 +74,7 @@ body{
     float: left;
     margin: 0;
     padding: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 #name{
     font-family: 'Roboto', sans-serif;
@@ -86,7 +86,7 @@ body{
     margin: 0;
     margin-left: 15px;
     padding: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 #navigation{
     width: fit-content;
@@ -118,13 +118,35 @@ body{
     transform: scale(1.1);
     transition: 0.2s ease;
 }
-#AboutMeSection{
+#AboutMeBG{
     background-image: url(./image/AboutMeBackground.jpg);
-    margin-top: 300px;
     width: 100%;
     height: 1080px;
+    margin-top: 300px;
     opacity: 0.2;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 1s;
+    transition: 0.5s;
+}
+#AboutMeSection{
+    width: 100%;
+    height: 100;
+    margin-top: -1080px;
+    padding-top: 100px;
+    align-items: center;
+}
+#SkillsSection{
+    width: 100%;
+    height: 100;
+    padding-top: 100px;
+    align-items: center;
+}
+#ExperienceSection{
+    width: 100%;
+    height: 100;
+    padding-top: 100px;
+    align-items: center;
+}
+#TitleSection{
+    text-align: center;
 }
