@@ -121,32 +121,318 @@ body{
 #AboutMeBG{
     background-image: url(./image/AboutMeBackground.jpg);
     width: 100%;
-    height: 1080px;
-    margin-top: 300px;
-    opacity: 0.2;
+    height: 730px;
+    position: absolute;
+    top: 300px;
+    z-index: -1;
+    opacity: 0.1;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
 }
 #AboutMeSection{
     width: 100%;
-    height: 100;
-    margin-top: -1080px;
+    height: fit-content;
+    margin-top: 300px;
     padding-top: 100px;
     align-items: center;
+    transition: 0.5s;
+    padding-bottom: 150px;
 }
 #SkillsSection{
     width: 100%;
-    height: 100;
-    padding-top: 100px;
+    height: fit-content;
+    padding-top: 90px;
+    padding-bottom: 60px;
     align-items: center;
 }
 #ExperienceSection{
     width: 100%;
-    height: 100;
-    padding-top: 100px;
+    height: 100px;
+    padding-top: 90px;
+    align-items: center;
+}
+#EducationSection{
+    width: 100%;
+    height: 100px;
+    padding-top: 90px;
     align-items: center;
 }
 #TitleSection{
     text-align: center;
+    font-size: 35px;
+    color: #990000;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutMeContainer{
+    width: 65%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.aboutMeText{
+    margin-bottom: 30px;
+}
+.contactMeText{
+    margin-top: 50px;
+}
+.contactContainer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    height: 120px;
+}
+.linkedinContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    background-color: #0072b1;
+}
+.whatsappContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    background-color: #25D366;
+}
+.mailContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    background-color: #FF4040;
+}
+.linkedinContainer:hover, .whatsappContainer:hover, .mailContainer:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+.contactIcon{
+    width: 60%;
+    height: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.mailIcon{
+    width: 70%;
+    height: 50%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 25%;
+}
+.skillsContainer{
+    width: 80%;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.skillsProgrammingContainer{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.skillsDesignContainer{
+    width: 45%;
+    height: 50%;
+    float: right;
+}
+.skillsOtherContainer{
+    width: 45%;
+    height: 50%;
+    float: right;
+}
+.skillsTitle{
+    font-size: 25px;
+    width: fit-content;
+    float: left;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.skillsBarContainer{
+    float: left;
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}
+.skillsName{
+    font-size: 17px;
+    font-weight: 500;
+    width: fit-content;
+    float: left;
+    margin: 0;
+}
+.skillsdetail{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 20px;
+    font-size: 13px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+}
+.androidSkill{
+    font-size: 17px;
+    font-weight: 500;
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+.skillBarFrameAndroid{
+    width: 70%;
+    height: 16px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #CCCCCC;
+}
+.skillBarFrame{
+    width: 70%;
+    height: 16px;
+    margin-top: 2px;
+    float: right;
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+.skillHTML{
+    float: left;
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillCSS{
+    float: left;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillJS{
+    float: left;
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillUML{
+    float: left;
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillAndroid{
+    float: left;
+    height: 100%;
+    width: 65%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillJava{
+    float: left;
+    height: 100%;
+    width: 65%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillReactNative{
+    float: left;
+    height: 100%;
+    width: 55%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillC{
+    float: left;
+    height: 100%;
+    width: 53%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillSQL{
+    float: left;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillPython{
+    float: left;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillUIUX{
+    float: left;
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillLogoDesign{
+    float: left;
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillVideoEditing{
+    float: left;
+    height: 100%;
+    width: 65%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillIllustration{
+    float: left;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillLeadership{
+    float: left;
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillTeamwork{
+    float: left;
+    height: 100%;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillCreativity{
+    float: left;
+    height: 100%;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #990000;
+}
+.skillAnalysist{
+    float: left;
+    height: 100%;
+    width: 55%;
+    border-radius: 10px;
+    background-color: #990000;
 }

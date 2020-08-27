@@ -20,7 +20,8 @@ function scrollFunction() {
     document.getElementById("name").style.marginLeft = "10px";
     document.getElementById("introduction").style.top = "15px";
     document.getElementById("introduction").style.left = "70px";
-    document.getElementById("AboutMeBG").style.marginTop = "65px";
+    document.getElementById("AboutMeBG").style.top = "65px";
+    document.getElementById("AboutMeSection").style.marginTop = "65px";
   } else {
     document.getElementById("header").style.height = "300px";
     document.getElementById("profileImageOutline").style.width ="188px";
@@ -40,7 +41,8 @@ function scrollFunction() {
     document.getElementById("name").style.marginLeft = "15px";
     document.getElementById("introduction").style.top = "100px";
     document.getElementById("introduction").style.left = "300px";
-    document.getElementById("AboutMeBG").style.marginTop = "300px";
+    document.getElementById("AboutMeBG").style.top = "300px";
+    document.getElementById("AboutMeSection").style.marginTop = "300px";
   }
 }
 
@@ -48,7 +50,6 @@ function pushHeader(index){
     //If not yet scroll -> scroll 55px to collapse
     if(window.scrollY<50){
         event.preventDefault();
-        console.log("notyet");
         window.scroll(0, 55);
         setTimeout(() => {
             if(index==1){
@@ -62,4 +63,10 @@ function pushHeader(index){
             }
         }, 505);
     }
+}
+
+function mailFarrell()
+{
+    event.preventDefault();
+    window.location.href = "mailto:farrelllandutama@gmail.com";
 }
