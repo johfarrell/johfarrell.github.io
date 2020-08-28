@@ -148,14 +148,21 @@ body{
 }
 #ExperienceSection{
     width: 100%;
-    height: 100px;
+    height: fit-content;
     padding-top: 90px;
     align-items: center;
 }
 #EducationSection{
     width: 100%;
-    height: 100px;
+    height: fit-content;
     padding-top: 90px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+#FooterSection{
+    width: 100%;
+    height: 110px;
+    background-color: #141414;
     align-items: center;
 }
 #TitleSection{
@@ -317,16 +324,16 @@ body{
 }
 .skillBarFrameAndroid{
     width: 70%;
-    height: 16px;
+    height: 15px;
     float: right;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 11px;
     background-color: #CCCCCC;
 }
 .skillBarFrame{
     width: 70%;
-    height: 16px;
-    margin-top: 2px;
+    height: 15px;
+    margin-top: 3px;
     float: right;
     border-radius: 10px;
     background-color: #CCCCCC;
@@ -456,4 +463,199 @@ body{
     width: 55%;
     border-radius: 10px;
     background-color: #990000;
+}
+.experienceContainer{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.experienceCategory{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 60px;
+}
+.experienceWork{
+    color: #707070;
+    font-size: 20px;
+    width: fit-content;
+    margin: 0;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -14px;
+}
+.experienceOther{
+    color: #707070;
+    font-size: 20px;
+    width: fit-content;
+    margin: 0;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -17px;
+}
+.Worktimeline{
+    width: 5px;
+    height: 470px;
+    background-color: #707070;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 8px;
+    z-index: -1;
+}
+.Othertimeline{
+    width: 5px;
+    height: 200px;
+    background-color: #707070;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 8px;
+    z-index: -1;
+}
+.Educationtimeline{
+    width: 5px;
+    height: 150px;
+    background-color: #707070;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 8px;
+    z-index: -1;
+}
+.experience{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.OtherExperience{
+    width: 600px;
+    height: 160px;
+    margin-bottom: 30px;
+}
+.dotTimeline{
+    position: absolute;
+    z-index: 0;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+.jobContainer{
+    width: 540px;
+    height: 100%;
+    float: right;
+}
+.jobTitle{
+    font-size: 30px;
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    margin: 0;
+    float: left;
+}
+.jobPeriod{
+    font-size: 30px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+.jobPosition{
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    color: #990000;
+}
+.jobDesc{
+    font-size: 17px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    color: #404041;
+}
+.jobSite{
+    font-size: 17px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    text-decoration: none;
+    color: #990000;
+}
+.jobSite:hover{
+    color: #FF4040;
+    transition: 0.2s ease;
+    margin-left: 5px;
+}
+.educationContainer{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.education{
+    width: 770px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.eduContainer{
+    width: 710px;
+    height: 100%;
+    float: right;
+}
+.institution{
+    font-size: 30px;
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    margin: 0;
+    float: left;
+}
+.studyperiod{
+    font-size: 30px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+.majorclass{
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    color: #990000;
 }
