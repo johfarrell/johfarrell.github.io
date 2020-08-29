@@ -7,6 +7,51 @@ more900.addListener(scrollFunction)
 var less900 = window.matchMedia("(max-width: 899px)")
 less900.addListener(scrollFunction)
 
+window.onload = function(){
+    if(less900.matches){
+        document.getElementById("drop").style.visibility = "visible";
+        document.getElementById("drop").style.paddingRight = "5px";
+        document.getElementById("drop").style.paddingLeft = "5px";
+        document.getElementById("drop").style.margin = "6px";
+        document.getElementById("dropIcon").style.fontSize = "33px";
+
+        if(document.getElementById("dropDownContainer").style.visibility === "hidden"){
+            document.getElementById("collapse").style.visibility = "hidden";
+            document.getElementById("collapse").style.paddingRight = "0";
+            document.getElementById("collapse").style.paddingLeft = "0";
+            document.getElementById("collapse").style.margin = "0";
+            document.getElementById("collapseIcon").style.fontSize = "0";
+        }else if(document.getElementById("dropDownContainer").style.visibility === "visible"){
+            document.getElementById("drop").style.visibility = "hidden";
+            document.getElementById("drop").style.paddingRight = "0";
+            document.getElementById("drop").style.paddingLeft = "0";
+            document.getElementById("drop").style.margin = "0";
+            document.getElementById("dropIcon").style.fontSize = "0";
+        }
+
+        document.getElementById("header").style.height = "65px";
+        document.getElementById("profileImageOutline").style.width ="50px";
+        document.getElementById("profileImageOutline").style.height ="50px";
+        document.getElementById("profileImageOutline").style.border ="2px solid #990000";
+        document.getElementById("profilePict").style.border ="0.5px solid #FFFFFF";
+        document.getElementById("profilePict").style.width ="80%";
+        document.getElementById("profilePict").style.height ="80%";
+        document.getElementById("profilePict").style.marginTop ="8%";
+        document.getElementById("profilePict").style.marginLeft ="8%";
+        document.getElementById("profile").style.top ="5px";
+        document.getElementById("profile").style.left ="5px";
+        document.getElementById("hiThere").style.visibility = "hidden";
+        document.getElementById("hiThere").style.fontSize = "1px";
+        document.getElementById("im").style.fontSize = "25px";
+        document.getElementById("name").style.fontSize = "25px";
+        document.getElementById("name").style.marginLeft = "10px";
+        document.getElementById("introduction").style.top = "15px";
+        document.getElementById("introduction").style.left = "70px";
+        document.getElementById("AboutMeBG").style.top = "65px";
+        document.getElementById("AboutMeSection").style.marginTop = "65px";
+    }
+}
+
 function scrollFunction() {
     if(more900.matches){
         document.getElementById("dropDownContainer").style.visibility = "hidden";
