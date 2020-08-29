@@ -95,6 +95,63 @@ body{
     margin-right: 5px;
     float: right;
 }
+#drop{
+    width: 0;
+    height: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+}
+#collapse{
+    width: 0;
+    height: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+}
+#dropIcon{
+    font-size: 0;
+    color: #FFFFFF;
+}
+#collapseIcon{
+    font-size: 0;
+    color: #FFFFFF;
+}
+#dropDownContainer{
+    visibility: hidden;
+    width: 100%;
+    height: fit-content;
+    background-color: #141414;
+    border-top: 5px solid #FFFFFF;
+    position: absolute;
+    top: 65px;
+}
+#navMenuDrop{
+    width: 100%;
+    height: fit-content;
+    padding: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: left;
+    text-decoration: none;
+}
+#navMenuInDrop{
+    margin: 0;
+    padding: 4px;
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #990000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navMenuDrop:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
 #navMenu{
     width: fit-content;
     height: fit-content;
@@ -244,20 +301,6 @@ body{
     margin-top: 21%;
     font-size: 45px;
     color: #FFFFFF;
-}
-.contactIcon{
-    width: 60%;
-    height: 60%;
-    float: left;
-    margin-left: 20%;
-    margin-top: 20%;
-}
-.mailIcon{
-    width: 70%;
-    height: 50%;
-    float: left;
-    margin-left: 15%;
-    margin-top: 25%;
 }
 .skillsContainer{
     width: 80%;
@@ -480,6 +523,11 @@ body{
     height: fit-content;
     margin-top: 30px;
 }
+.experienceCategoryOther{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+}
 .experienceWork{
     color: #707070;
     font-size: 20px;
@@ -559,6 +607,16 @@ body{
     margin: 0;
     float: left;
 }
+.slash{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    text-align: left;
+    float: left;
+    margin-left: 8px;
+}
 .jobPeriod{
     font-size: 25px;
     font-weight: 500;
@@ -567,9 +625,20 @@ body{
     margin: 0;
     text-align: left;
     float: left;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .jobPosition{
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    color: #990000;
+}
+.jobPositionFreelance{
     font-size: 20px;
     font-weight: 700;
     width: 100%;
@@ -646,7 +715,7 @@ body{
     margin: 0;
     text-align: left;
     float: left;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .majorclass{
     font-size: 20px;
@@ -658,4 +727,697 @@ body{
     text-align: left;
     float: left;
     color: #990000;
+}
+@media screen and (max-width: 1450px){
+    #AboutMeBG{
+        height: 750px;
+    }
+}
+@media screen and (max-width: 1280px){
+    #AboutMeBG{
+        height: 775px;
+    }
+}
+@media screen and (max-width: 1200px){
+    #AboutMeBG{
+        height: 775px;
+    }
+    .skillsContainer{
+        height: 650px;
+    }
+    .androidSkill{
+        font-size: 17px;
+        font-weight: 500;
+        width: fit-content;
+        float: left;
+        margin: 0;
+    }
+    .skillsdetail{
+        text-align: left;
+        float: left;
+        padding-top: 0px;
+        font-size: 13px;
+        margin: 0;
+        margin-top: 2.5px;
+        margin-left: 5px;
+    }
+    .skillBarFrameAndroid{
+        width: 100%;
+        float: left;
+        margin-top: 5px;
+    }
+    .skillBarFrame{
+        width: 100%;
+        margin-top: 5px;
+        float: left;
+    }
+}
+@media screen and (max-width: 1132px){
+    #AboutMeBG{
+        height: 795px;
+    }
+}
+@media screen and (max-width: 948px){
+    #AboutMeBG{
+        height: 820px;
+    }
+}
+@media screen and (max-width: 899px){
+    #AboutMeBG{
+        height: 820px;
+    }
+    #drop{
+        width: fit-content;
+        height: fit-content;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin: 6px;
+        float: right;
+    }
+    #dropIcon{
+        font-size: 33px;
+        color: #FFFFFF;
+    }
+    #collapse{
+        width: fit-content;
+        height: fit-content;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+        float: right;
+    }
+    #collapseIcon{
+        font-size: 0;
+        color: #FFFFFF;
+    }
+    #navMenu{
+        padding: 0;
+        margin: 0;
+    }
+    #navMenuIn{
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #navMenuIn:hover{
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 843px){
+    #AboutMeBG{
+        height: 840px;
+    }
+}
+@media screen and (max-width: 819px){
+    #AboutMeBG{
+        height: 865px;
+    }
+}
+@media screen and (max-width: 812px){
+    .skillsProgrammingContainer{
+        width: 100%;
+        height: fit-content;
+        float: left;
+    }
+    .skillsDesignContainer{
+        margin-top: 50px;
+        width: 100%;
+        height: fit-content;
+        float: left
+    }
+    .skillsOtherContainer{
+        margin-top: 50px;
+        width: 100%;
+        height: fit-content;
+        float: left
+    }
+    .skillsContainer{
+        width: 80%;
+        height: 1350px;
+    }
+    .education{
+        width: 505px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .eduContainer{
+        width: 445px;
+        height: 100%;
+        float: right;
+    }
+    .slash{
+        font-size: 0;
+        width: 0;
+        height: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .studyperiod{
+        font-size: 25px;
+        font-weight: 500;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+    }
+    .majorclass{
+        font-size: 0;
+        width: 0;
+        height: 0;
+        margin-top: 0;
+    }
+    .Worktimeline{
+        width: 5px;
+        height: 300px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .Othertimeline{
+        width: 5px;
+        height: 150px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .experience{
+        width: 505px;
+        height: 115px;
+        margin-bottom: 30px;
+    }
+    .OtherExperience{
+        width: 505px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .experienceCategoryOther{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 50px;
+    }
+    .jobContainer{
+        width: 445px;
+        height: 100%;
+        float: right;
+    }
+    .jobPeriod{
+        font-size: 25px;
+        font-weight: 500;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+        margin-left: 0;
+    }
+    .jobPositionFreelance{
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        color: #990000;
+    }
+    .jobDesc{
+        font-size: 0;
+        width: 0;
+        height: 0;
+        margin: 0;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 756px){
+    #AboutMeBG{
+        height: 890px;
+    }
+}
+@media screen and (max-width: 654px){
+    #AboutMeBG{
+        height: 910px;
+    }
+}
+@media screen and (max-width: 646px){
+    #AboutMeBG{
+        height: 930px;
+    }
+}
+@media screen and (max-width: 630px){
+    #AboutMeBG{
+        height: 820px;
+    }
+    .aboutMeContainer{
+        width: 90%;
+        height: fit-content;
+    }
+    .skillsContainer{
+        width: 90%;
+        height: 1350px;
+    }
+    .experienceContainer{
+        width: 90%;
+    }
+    .educationContainer{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 608px){
+    #AboutMeBG{
+        height: 845px;
+    }
+}
+@media screen and (max-width: 591px){
+    #AboutMeBG{
+        height: 865px;
+    }
+}
+@media screen and (max-width: 560px){
+    .experience{
+        width: 400px;
+        height: 70px;
+        margin-bottom: 30px;
+    }
+    .OtherExperience{
+        width: 400px;
+        height: 70px;
+        margin-bottom: 30px;
+    }
+    .jobContainer{
+        width: 360px;
+        height: 100%;
+        float: right;
+    }
+    .jobTitle{
+        font-size: 20px;
+        font-weight: 700;
+        width: fit-content;
+        height: fit-content;
+        text-align: left;
+        margin: 0;
+        float: left;
+    }
+    .jobPeriod{
+        font-size: 20px;
+        font-weight: 500;
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+        margin-left: 8px;
+    }
+    .jobPosition{
+        font-size: 15px;
+        font-weight: 700;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        color: #990000;
+    }
+    .jobPositionFreelance{
+        font-size: 11px;
+        font-weight: 700;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        color: #990000;
+    }
+    .jobSite{
+        font-size: 10px;
+        font-weight: 500;
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        text-decoration: none;
+        color: #990000;
+    }
+    .experienceWork{
+        color: #707070;
+        font-size: 15px;
+        width: fit-content;
+        margin: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+    .experienceOther{
+        color: #707070;
+        font-size: 15px;
+        width: fit-content;
+        margin: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -13px;
+    }
+    .dotTimeline{
+        position: absolute;
+        z-index: 0;
+        width: 10px;
+        height: 10px;
+        border: 5px solid #707070;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+    .Worktimeline{
+        width: 5px;
+        height: 200px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .Othertimeline{
+        width: 5px;
+        height: 100px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .Educationtimeline{
+        width: 5px;
+        height: 100px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .education{
+        width: 400px;
+        height: 70px;
+        margin-bottom: 30px;
+    }
+    .eduContainer{
+        width: 360px;
+        height: 100%;
+        float: right;
+    }    
+    .institution{
+        font-size: 20px;
+        font-weight: 700;
+        width: fit-content;
+        height: fit-content;
+        text-align: left;
+        margin: 0;
+        float: left;
+    }
+    .studyperiod{
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+    }
+}
+@media screen and (max-width: 545px){
+    #AboutMeBG{
+        height: 890px;
+    }
+}
+@media screen and (max-width: 472px){
+    #AboutMeBG{
+        height: 890px;
+    }
+    .contactMeText{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 466px){
+    #AboutMeBG{
+        height: 910px;
+    }
+}
+@media screen and (max-width: 445px){
+    .experience{
+        width: 290px;
+        height: 90px;
+        margin-bottom: 15px;
+    }
+    .OtherExperience{
+        width: 290px;
+        height: 90px;
+        margin-bottom: 15px;
+    }
+    .jobContainer{
+        width: 240px;
+        height: 100%;
+        float: right;
+    }
+    .experienceCategoryOther{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    .jobTitle{
+        font-size: 20px;
+        font-weight: 700;
+        width: fit-content;
+        height: fit-content;
+        text-align: left;
+        margin: 0;
+        float: left;
+    }
+    .jobPeriod{
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+    }
+    .jobPosition{
+        font-size: 15px;
+        font-weight: 700;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        color: #990000;
+    }
+    .jobPositionFreelance{
+        visibility: hidden;
+        font-size: 0;
+        font-weight: 700;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        margin-top: 0;
+        text-align: left;
+        float: left;
+        color: #990000;
+    }
+    .jobSite{
+        font-size: 10px;
+        font-weight: 500;
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+        text-decoration: none;
+        color: #990000;
+    }
+    .experienceWork{
+        color: #707070;
+        font-size: 15px;
+        width: fit-content;
+        margin: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+    .experienceOther{
+        color: #707070;
+        font-size: 15px;
+        width: fit-content;
+        margin: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -13px;
+    }
+    .dotTimeline{
+        position: absolute;
+        z-index: 0;
+        width: 10px;
+        height: 10px;
+        border: 5px solid #707070;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+    .Worktimeline{
+        width: 5px;
+        height: 200px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .Othertimeline{
+        width: 5px;
+        height: 100px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .Educationtimeline{
+        width: 5px;
+        height: 110px;
+        background-color: #707070;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 8px;
+        z-index: -1;
+    }
+    .education{
+        width: 290px;
+        height: 95px;
+        margin-bottom: 15px;
+    }
+    .eduContainer{
+        width: 240px;
+        height: 100%;
+        float: right;
+    }    
+    .institution{
+        font-size: 20px;
+        font-weight: 700;
+        width: fit-content;
+        height: fit-content;
+        text-align: left;
+        margin: 0;
+        float: left;
+    }
+    .studyperiod{
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        text-align: left;
+        float: left;
+    }
+    .skillsTitle{
+        font-size: 20px;
+        width: fit-content;
+        float: left;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    .skillsContainer{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 426px){
+    #AboutMeBG{
+        height: 930px;
+    }
+}
+@media screen and (max-width: 409px){
+    #AboutMeBG{
+        height: 960px;
+    }
+}
+@media screen and (max-width: 396px){
+    #AboutMeBG{
+        height: 980px;
+    }
+}
+@media screen and (max-width: 370px){
+    #AboutMeBG{
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 337px){
+    #AboutMeBG{
+        height: 1030px;
+    }
+}
+@media screen and (max-width: 360px){
+    .contactContainer{
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+        height: 100px;
+    }
+    .linkedinContainer{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        float: left;
+        margin: 15px;
+        background-color: #0072b1;
+    }
+    .whatsappContainer{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        float: left;
+        margin: 15px;
+        background-color: #25D366;
+    }
+    .mailContainer{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        float: left;
+        margin: 15px;
+        background-color: #FF4040;
+    }
+    .linkedinContainer:hover, .whatsappContainer:hover, .mailContainer:hover{
+        transform: scale(1.1);
+        transition: 0.2s ease;
+    }
+    #linkedinIcon{
+        float: left;
+        margin-left: 23%;
+        margin-top: 20%;
+        font-size: 45px;
+        color: #FFFFFF;
+    }
+    #whatsappIcon{
+        float: left;
+        margin-left: 23%;
+        margin-top: 20%;
+        font-size: 45px;
+        color: #FFFFFF;
+    }
+    #mailIcon{
+        float: left;
+        margin-left: 22%;
+        margin-top: 21%;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
 }

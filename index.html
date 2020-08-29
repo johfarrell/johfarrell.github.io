@@ -28,6 +28,18 @@
                 <a href="#SkillsSection" id="navMenu" onclick="pushHeader(2)"><h1 id="navMenuIn">Skills</h1></a>
                 <a href="#ExperienceSection" id="navMenu" onclick="pushHeader(3)"><h1 id="navMenuIn">Experience</h1></a>
                 <a href="#EducationSection" id="navMenu" onclick="pushHeader(4)"><h1 id="navMenuIn">Education</h1></a>
+                <a href="#Expand" id="drop" onclick="dropdown()">
+                    <i class="fa fa-angle-down" id="dropIcon"></i>
+                </a>
+                <a href="#Expand" id="collapse" onclick="dropcollapse()">
+                    <i class="fa fa-angle-up" id="collapseIcon"></i>
+                </a>
+            </div>
+            <div id="dropDownContainer">
+                <a href="#AboutMeSection" id="navMenuDrop" onclick="pushHeader(1)"><h1 id="navMenuInDrop">About Me</h1></a>
+                <a href="#SkillsSection" id="navMenuDrop" onclick="pushHeader(2)"><h1 id="navMenuInDrop">Skills</h1></a>
+                <a href="#ExperienceSection" id="navMenuDrop" onclick="pushHeader(3)"><h1 id="navMenuInDrop">Experience</h1></a>
+                <a href="#EducationSection" id="navMenuDrop" onclick="pushHeader(4)"><h1 id="navMenuInDrop">Education</h1></a>
             </div>
         </header>
         <div id="AboutMeBG">
@@ -198,7 +210,8 @@
                         <div class="dotTimeline"></div>
                         <div class="jobContainer">
                             <h1 class="jobTitle">Spotigo Indonesia</h1>
-                            <h1 class="jobPeriod">/ 2020-Present</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="jobPeriod">2020-Present</h1>
                             <h1 class="jobPosition">React Native Developer</h1>
                             <h1 class="jobDesc">Sportigo is a tech startup providing statistic for football
                                 and futsal player in Indonesia.
@@ -214,7 +227,8 @@
                         <div class="dotTimeline"></div>
                         <div class="jobContainer">
                             <h1 class="jobTitle">Spotigo Indonesia</h1>
-                            <h1 class="jobPeriod">/ 2019-2020</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="jobPeriod">2019-2020</h1>
                             <h1 class="jobPosition">Android Developer</h1>
                             <h1 class="jobDesc">Sportigo is a tech startup providing statistic for football
                                 and futsal player in Indonesia.
@@ -230,8 +244,9 @@
                         <div class="dotTimeline"></div>
                         <div class="jobContainer">
                             <h1 class="jobTitle">Freelancer</h1>
-                            <h1 class="jobPeriod">/ 2018-2019</h1>
-                            <h1 class="jobPosition">Graphic Designer, Video Editor, UI-UX Designer</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="jobPeriod">2018-2019</h1>
+                            <h1 class="jobPositionFreelance">Graphic Designer, Video Editor, UI-UX Designer</h1>
                             <h1 class="jobDesc">Job-Desc: Working as freelance designer in 99designs and 
                                 open commision for design projects</h1>
                             <a href="https://99designs.com/" target="_blank" class="jobSite">
@@ -241,14 +256,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="experienceCategory">
+                <div class="experienceCategoryOther">
                     <h1 class="experienceOther">Other</h1>
                     <div class="Othertimeline"></div>
                     <div class="OtherExperience">
                         <div class="dotTimeline"></div>
                         <div class="jobContainer">
                             <h1 class="jobTitle">Freshmen Leader</h1>
-                            <h1 class="jobPeriod">/ 2020</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="jobPeriod">2020</h1>
                             <h1 class="jobPosition">Event Coordinator</h1>
                             <h1 class="jobDesc">Job-Desc: Lead and guide freshmen through their orientation
                                 and first year in BINUS University.</h1>
@@ -262,7 +278,8 @@
                         <div class="dotTimeline"></div>
                         <div class="jobContainer">
                             <h1 class="jobTitle">Lead Creative Team</h1>
-                            <h1 class="jobPeriod">/ 2019</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="jobPeriod">2019</h1>
                             <h1 class="jobPosition">Event Coordinator</h1>
                             <h1 class="jobDesc">Job-Desc: Leading a creative team in local church christmas event.</h1>
                             <a href="https://www.instagram.com/radiance.community/" target="_blank" class="jobSite">
@@ -283,7 +300,8 @@
                         <div class="dotTimeline"></div>
                         <div class="eduContainer">
                             <h1 class="institution">Bina Nusantara University</h1>
-                            <h1 class="studyperiod">/ 2018-Present</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="studyperiod">2018-Present</h1>
                             <h1 class="majorclass">Computer Science Major</h1>
                             <a href="https://binus.ac.id/" target="_blank" class="jobSite">
                                 binus.ac.id
@@ -295,7 +313,8 @@
                         <div class="dotTimeline"></div>
                         <div class="eduContainer">
                             <h1 class="institution">Terang Bangsa Senior Highschool</h1>
-                            <h1 class="studyperiod">/ 2015-2018</h1>
+                            <h1 class="slash">/</h1>
+                            <h1 class="studyperiod">2015-2018</h1>
                             <h1 class="majorclass">Science Class</h1>
                             <a href="https://sktbcirebon.wordpress.com/" target="_blank" class="jobSite">
                                 sktbcirebon.wordpress.com
