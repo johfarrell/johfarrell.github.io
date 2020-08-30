@@ -161,29 +161,41 @@ function pushHeader(index){
             window.scroll(0, 55);
             setTimeout(() => {
                 if(index==1){
-                    location.href = "#AboutMeSection";
+                    window.location.replace("#AboutMeSection")
                 }else if(index==2){
-                    location.href = "#SkillsSection";
+                    window.location.replace("#SkillsSection")
                 }else if(index==3){
-                    location.href = "#ExperienceSection";
+                    window.location.replace("#ExperienceSection")
                 }else if(index==4){
                     location.href = "#EducationSection";
+                    window.location.replace("#EducationSection")
                 }
             }, 505);
+        }else{
+            event.preventDefault();
+            if(index==1){
+                window.location.replace("#AboutMeSection")
+            }else if(index==2){
+                window.location.replace("#SkillsSection")
+            }else if(index==3){
+                window.location.replace("#ExperienceSection")
+            }else if(index==4){
+                window.location.replace("#EducationSection")
+            }
         }
     }else if(less900.matches){
         event.preventDefault();
         if(index==1){
-            location.href = "#AboutMeSection";
+            window.location.replace("#AboutMeSection")
             dropcollapse();
         }else if(index==2){
-            location.href = "#SkillsSection";
+            window.location.replace("#SkillsSection")
             dropcollapse();
         }else if(index==3){
-            location.href = "#ExperienceSection";
+            window.location.replace("#ExperienceSection")
             dropcollapse();
         }else if(index==4){
-            location.href = "#EducationSection";
+            window.location.replace("#EducationSection")
             dropcollapse();
         }
     }
