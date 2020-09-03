@@ -47,7 +47,6 @@ window.onload = function(){
         document.getElementById("name").style.marginLeft = "10px";
         document.getElementById("introduction").style.top = "15px";
         document.getElementById("introduction").style.left = "70px";
-        document.getElementById("AboutMeBG").style.top = "65px";
         document.getElementById("AboutMeSection").style.marginTop = "65px";
     }
 }
@@ -85,7 +84,6 @@ function scrollFunction() {
             document.getElementById("name").style.marginLeft = "10px";
             document.getElementById("introduction").style.top = "15px";
             document.getElementById("introduction").style.left = "70px";
-            document.getElementById("AboutMeBG").style.top = "65px";
             document.getElementById("AboutMeSection").style.marginTop = "65px";
         } else {
             document.getElementById("header").style.height = "300px";
@@ -106,7 +104,6 @@ function scrollFunction() {
             document.getElementById("name").style.marginLeft = "15px";
             document.getElementById("introduction").style.top = "100px";
             document.getElementById("introduction").style.left = "300px";
-            document.getElementById("AboutMeBG").style.top = "300px";
             document.getElementById("AboutMeSection").style.marginTop = "300px";
         }
     }else if(less900.matches){
@@ -148,7 +145,6 @@ function scrollFunction() {
         document.getElementById("name").style.marginLeft = "10px";
         document.getElementById("introduction").style.top = "15px";
         document.getElementById("introduction").style.left = "70px";
-        document.getElementById("AboutMeBG").style.top = "65px";
         document.getElementById("AboutMeSection").style.marginTop = "65px";
     }
 }
