@@ -720,20 +720,7 @@ body{
     float: left;
     color: #990000;
 }
-@media screen and (max-width: 1450px){
-    #AboutMeBG{
-        height: 750px;
-    }
-}
-@media screen and (max-width: 1280px){
-    #AboutMeBG{
-        height: 775px;
-    }
-}
 @media screen and (max-width: 1200px){
-    #AboutMeBG{
-        height: 775px;
-    }
     .skillsContainer{
         height: 650px;
     }
@@ -764,20 +751,7 @@ body{
         float: left;
     }
 }
-@media screen and (max-width: 1132px){
-    #AboutMeBG{
-        height: 795px;
-    }
-}
-@media screen and (max-width: 948px){
-    #AboutMeBG{
-        height: 820px;
-    }
-}
 @media screen and (max-width: 899px){
-    #AboutMeBG{
-        height: 820px;
-    }
     #drop{
         width: fit-content;
         height: fit-content;
@@ -815,16 +789,6 @@ body{
     }
     #navMenuIn:hover{
         transform: scale(1);
-    }
-}
-@media screen and (max-width: 843px){
-    #AboutMeBG{
-        height: 840px;
-    }
-}
-@media screen and (max-width: 819px){
-    #AboutMeBG{
-        height: 865px;
     }
 }
 @media screen and (max-width: 812px){
@@ -948,25 +912,7 @@ body{
         margin-top: 0;
     }
 }
-@media screen and (max-width: 756px){
-    #AboutMeBG{
-        height: 890px;
-    }
-}
-@media screen and (max-width: 654px){
-    #AboutMeBG{
-        height: 910px;
-    }
-}
-@media screen and (max-width: 646px){
-    #AboutMeBG{
-        height: 930px;
-    }
-}
 @media screen and (max-width: 630px){
-    #AboutMeBG{
-        height: 820px;
-    }
     .aboutMeContainer{
         width: 90%;
         height: fit-content;
@@ -980,16 +926,6 @@ body{
     }
     .educationContainer{
         width: 90%;
-    }
-}
-@media screen and (max-width: 608px){
-    #AboutMeBG{
-        height: 845px;
-    }
-}
-@media screen and (max-width: 591px){
-    #AboutMeBG{
-        height: 865px;
     }
 }
 @media screen and (max-width: 560px){
@@ -1145,22 +1081,9 @@ body{
         float: left;
     }
 }
-@media screen and (max-width: 545px){
-    #AboutMeBG{
-        height: 890px;
-    }
-}
 @media screen and (max-width: 472px){
-    #AboutMeBG{
-        height: 890px;
-    }
     .contactMeText{
         margin-top: 30px;
-    }
-}
-@media screen and (max-width: 466px){
-    #AboutMeBG{
-        height: 910px;
     }
 }
 @media screen and (max-width: 445px){
@@ -1329,31 +1252,6 @@ body{
     }
     .skillsContainer{
         height: 1300px;
-    }
-}
-@media screen and (max-width: 426px){
-    #AboutMeBG{
-        height: 930px;
-    }
-}
-@media screen and (max-width: 409px){
-    #AboutMeBG{
-        height: 960px;
-    }
-}
-@media screen and (max-width: 396px){
-    #AboutMeBG{
-        height: 980px;
-    }
-}
-@media screen and (max-width: 370px){
-    #AboutMeBG{
-        height: 1000px;
-    }
-}
-@media screen and (max-width: 337px){
-    #AboutMeBG{
-        height: 1030px;
     }
 }
 @media screen and (max-width: 360px){
