@@ -214,6 +214,23 @@ body{
     background-color: #141414;
     align-items: center;
 }
+#FooterSection a{
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #00000000;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    color: #FFFFFF;    
+    text-decoration: none;
+    font-size: 12px;
+}
 #TitleSection{
     text-align: center;
     font-size: 35px;
@@ -418,7 +435,7 @@ body{
 .skillReactNative{
     float: left;
     height: 100%;
-    width: 55%;
+    width: 60%;
     border-radius: 10px;
     background-color: #990000;
 }
