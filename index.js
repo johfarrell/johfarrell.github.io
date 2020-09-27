@@ -149,7 +149,7 @@ function scrollFunction() {
     }
     var headerHeight = document.getElementById("header").offsetHeight;
     var aboutMeHeight = document.getElementById("AboutMeSection").offsetHeight;
-    var skillView = headerHeight+aboutMeHeight + 50 - 300
+    var skillView = headerHeight+aboutMeHeight - 300
     
     if(window.scrollY>=skillView){
         document.getElementById("HTMLBar").style.width = "95%";
@@ -170,7 +170,7 @@ function scrollFunction() {
         document.getElementById("TeamworkBar").style.width = "85%";
         document.getElementById("CreativityBar").style.width = "85%";
         document.getElementById("AnalysistBar").style.width = "55%";
-    }else if(window.scrollY < (skillView-100)){
+    }else if(window.scrollY < (skillView-150)){
         document.getElementById("HTMLBar").style.width = "0%";
         document.getElementById("CSSBar").style.width = "0%";
         document.getElementById("JSBar").style.width = "0%";
