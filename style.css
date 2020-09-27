@@ -381,6 +381,7 @@ body{
     border-radius: 10px;
     margin-top: 11px;
     background-color: #CCCCCC;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .skillBarFrame{
     width: 70%;
@@ -389,6 +390,7 @@ body{
     float: right;
     border-radius: 10px;
     background-color: #CCCCCC;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .skillBarFill{
     float: left;
