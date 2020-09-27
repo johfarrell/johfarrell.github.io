@@ -147,6 +147,49 @@ function scrollFunction() {
         document.getElementById("introduction").style.left = "70px";
         document.getElementById("AboutMeSection").style.marginTop = "65px";
     }
+    var headerHeight = document.getElementById("header").offsetHeight;
+    var aboutMeHeight = document.getElementById("AboutMeSection").offsetHeight;
+    var skillView = headerHeight+aboutMeHeight + 50 - 300
+    
+    if(window.scrollY>=skillView){
+        document.getElementById("HTMLBar").style.width = "95%";
+        document.getElementById("CSSBar").style.width = "90%";
+        document.getElementById("JSBar").style.width = "70%";
+        document.getElementById("UMLBar").style.width = "70%";
+        document.getElementById("AndroidBar").style.width = "65%";
+        document.getElementById("JavaBar").style.width = "65%";
+        document.getElementById("ReactNativeBar").style.width = "60%";
+        document.getElementById("CBar").style.width = "53%";
+        document.getElementById("SQLBar").style.width = "40%";
+        document.getElementById("PythonBar").style.width = "40%";
+        document.getElementById("UIUXBar").style.width = "95%";
+        document.getElementById("LogoDesignBar").style.width = "70%";
+        document.getElementById("VideoEditingBar").style.width = "65%";
+        document.getElementById("IllustrationBar").style.width = "30%";
+        document.getElementById("LeadershipBar").style.width = "95%";
+        document.getElementById("TeamworkBar").style.width = "85%";
+        document.getElementById("CreativityBar").style.width = "85%";
+        document.getElementById("AnalysistBar").style.width = "55%";
+    }else if(window.scrollY < (skillView-100)){
+        document.getElementById("HTMLBar").style.width = "0%";
+        document.getElementById("CSSBar").style.width = "0%";
+        document.getElementById("JSBar").style.width = "0%";
+        document.getElementById("UMLBar").style.width = "0%";
+        document.getElementById("AndroidBar").style.width = "0%";
+        document.getElementById("JavaBar").style.width = "0%";
+        document.getElementById("ReactNativeBar").style.width = "0%";
+        document.getElementById("CBar").style.width = "0%";
+        document.getElementById("SQLBar").style.width = "0%";
+        document.getElementById("PythonBar").style.width = "0%";
+        document.getElementById("UIUXBar").style.width = "0%";
+        document.getElementById("LogoDesignBar").style.width = "0%";
+        document.getElementById("VideoEditingBar").style.width = "0%";
+        document.getElementById("IllustrationBar").style.width = "0%";
+        document.getElementById("LeadershipBar").style.width = "0%";
+        document.getElementById("TeamworkBar").style.width = "0%";
+        document.getElementById("CreativityBar").style.width = "0%";
+        document.getElementById("AnalysistBar").style.width = "0%";
+    }
 }
 
 function pushHeader(index){

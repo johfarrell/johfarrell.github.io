@@ -390,131 +390,149 @@ body{
     border-radius: 10px;
     background-color: #CCCCCC;
 }
-.skillHTML{
+#HTMLBar{
     float: left;
     height: 100%;
-    width: 95%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillCSS{
+#CSSBar{
     float: left;
     height: 100%;
-    width: 90%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillJS{
+#JSBar{
     float: left;
     height: 100%;
-    width: 70%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillUML{
+#UMLBar{
     float: left;
     height: 100%;
-    width: 70%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillAndroid{
+#AndroidBar{
     float: left;
     height: 100%;
-    width: 65%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillJava{
+#JavaBar{
     float: left;
     height: 100%;
-    width: 65%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillReactNative{
+#ReactNativeBar{
     float: left;
     height: 100%;
-    width: 60%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillC{
+#CBar{
     float: left;
     height: 100%;
-    width: 53%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillSQL{
+#SQLBar{
     float: left;
     height: 100%;
-    width: 40%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillPython{
+#PythonBar{
     float: left;
     height: 100%;
-    width: 40%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillUIUX{
+#UIUXBar{
     float: left;
     height: 100%;
-    width: 95%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillLogoDesign{
+#LogoDesignBar{
     float: left;
     height: 100%;
-    width: 70%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillVideoEditing{
+#VideoEditingBar{
     float: left;
     height: 100%;
-    width: 65%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillIllustration{
+#IllustrationBar{
     float: left;
     height: 100%;
-    width: 30%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillLeadership{
+#LeadershipBar{
     float: left;
     height: 100%;
-    width: 95%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillTeamwork{
+#TeamworkBar{
     float: left;
     height: 100%;
-    width: 85%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillCreativity{
+#CreativityBar{
     float: left;
     height: 100%;
-    width: 85%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
-.skillAnalysist{
+#AnalysistBar{
     float: left;
     height: 100%;
-    width: 55%;
+    width: 0%;
     border-radius: 10px;
     background-color: #990000;
+    transition: 1s ease-in-out;
 }
 .experienceContainer{
     width: 80%;
