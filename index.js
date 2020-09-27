@@ -147,11 +147,12 @@ function scrollFunction() {
         document.getElementById("introduction").style.left = "70px";
         document.getElementById("AboutMeSection").style.marginTop = "65px";
     }
-    var headerHeight = document.getElementById("header").offsetHeight;
-    var aboutMeHeight = document.getElementById("AboutMeSection").offsetHeight;
-    var skillView = headerHeight+aboutMeHeight - 300
     
-    if(window.scrollY>=skillView){
+    var viewHeight = document.documentElement.clientHeight;
+    var skillPositionY = document.getElementById("SkillsSection").getBoundingClientRect().top;
+    var SkillAnimationMarker = skillPositionY-viewHeight+400
+    
+    if(SkillAnimationMarker<=0){
         document.getElementById("HTMLBar").style.width = "95%";
         document.getElementById("CSSBar").style.width = "90%";
         document.getElementById("JSBar").style.width = "70%";
@@ -170,7 +171,7 @@ function scrollFunction() {
         document.getElementById("TeamworkBar").style.width = "85%";
         document.getElementById("CreativityBar").style.width = "85%";
         document.getElementById("AnalysistBar").style.width = "55%";
-    }else if(window.scrollY < (skillView-150)){
+    }else if(SkillAnimationMarker>200){
         document.getElementById("HTMLBar").style.width = "0%";
         document.getElementById("CSSBar").style.width = "0%";
         document.getElementById("JSBar").style.width = "0%";
