@@ -1,14 +1,14 @@
 document.cookie = 'SameSite=None';
 window.onscroll = function() {scrollFunction()};
 
-var more900 = window.matchMedia("(min-width: 900px)")
-more900.addListener(scrollFunction)
+var moreScreen = window.matchMedia("(min-width: 1200px)")
+moreScreen.addListener(scrollFunction)
 
-var less900 = window.matchMedia("(max-width: 899px)")
-less900.addListener(scrollFunction)
+var lessScreen = window.matchMedia("(max-width: 1199px)")
+lessScreen.addListener(scrollFunction)
 
 window.onload = function(){
-    if(less900.matches){
+    if(lessScreen.matches){
         document.getElementById("drop").style.visibility = "visible";
         document.getElementById("drop").style.paddingRight = "5px";
         document.getElementById("drop").style.paddingLeft = "5px";
@@ -52,7 +52,7 @@ window.onload = function(){
 }
 
 function scrollFunction() {
-    if(more900.matches){
+    if(moreScreen.matches){
         document.getElementById("dropDownContainer").style.visibility = "hidden";
         document.getElementById("drop").style.visibility = "hidden";
         document.getElementById("drop").style.paddingRight = "0";
@@ -106,7 +106,7 @@ function scrollFunction() {
             document.getElementById("introduction").style.left = "300px";
             document.getElementById("AboutMeSection").style.marginTop = "300px";
         }
-    }else if(less900.matches){
+    }else if(lessScreen.matches){
         document.getElementById("drop").style.visibility = "visible";
         document.getElementById("drop").style.paddingRight = "5px";
         document.getElementById("drop").style.paddingLeft = "5px";
@@ -194,7 +194,7 @@ function scrollFunction() {
 }
 
 function pushHeader(index){
-    if(more900.matches){
+    if(moreScreen.matches){
         //If not yet scroll -> scroll 55px to collapse
         if(window.scrollY<50){
             event.preventDefault();
@@ -202,28 +202,41 @@ function pushHeader(index){
             setTimeout(() => {
                 if(index==1){
                     window.location.replace("#AboutMeSection")
+                    dropcollapse();
                 }else if(index==2){
                     window.location.replace("#SkillsSection")
+                    dropcollapse();
                 }else if(index==3){
-                    window.location.replace("#ExperienceSection")
+                    window.location.replace("#PortofolioSection")
+                    dropcollapse();
                 }else if(index==4){
-                    location.href = "#EducationSection";
+                    window.location.replace("#ExperienceSection")
+                    dropcollapse();
+                }else if(index==5){
                     window.location.replace("#EducationSection")
+                    dropcollapse();
                 }
             }, 505);
         }else{
             event.preventDefault();
             if(index==1){
                 window.location.replace("#AboutMeSection")
+                dropcollapse();
             }else if(index==2){
                 window.location.replace("#SkillsSection")
+                dropcollapse();
             }else if(index==3){
-                window.location.replace("#ExperienceSection")
+                window.location.replace("#PortofolioSection")
+                dropcollapse();
             }else if(index==4){
+                window.location.replace("#ExperienceSection")
+                dropcollapse();
+            }else if(index==5){
                 window.location.replace("#EducationSection")
+                dropcollapse();
             }
         }
-    }else if(less900.matches){
+    }else if(lessScreen.matches){
         event.preventDefault();
         if(index==1){
             window.location.replace("#AboutMeSection")
@@ -232,9 +245,12 @@ function pushHeader(index){
             window.location.replace("#SkillsSection")
             dropcollapse();
         }else if(index==3){
-            window.location.replace("#ExperienceSection")
+            window.location.replace("#PortofolioSection")
             dropcollapse();
         }else if(index==4){
+            window.location.replace("#ExperienceSection")
+            dropcollapse();
+        }else if(index==5){
             window.location.replace("#EducationSection")
             dropcollapse();
         }
@@ -248,7 +264,7 @@ function mailFarrell(){
 
 function dropdown(){
     event.preventDefault();
-    if(less900.matches){
+    if(lessScreen.matches){
         document.getElementById("dropDownContainer").style.visibility = "visible";
         document.getElementById("drop").style.visibility = "hidden";
         document.getElementById("drop").style.paddingRight = "0";
@@ -267,7 +283,7 @@ function dropdown(){
 
 function dropcollapse(){
     event.preventDefault();
-    if(less900.matches){
+    if(lessScreen.matches){
         document.getElementById("dropDownContainer").style.visibility = "hidden";
         document.getElementById("drop").style.visibility = "visible";
         document.getElementById("drop").style.paddingRight = "5px";
