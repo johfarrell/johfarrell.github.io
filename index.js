@@ -33,7 +33,7 @@ window.onload = function(){
         document.getElementById("profileImageOutline").style.width ="50px";
         document.getElementById("profileImageOutline").style.height ="50px";
         document.getElementById("profileImageOutline").style.border ="2px solid #990000";
-        document.getElementById("profilePict").style.border ="0.5px solid #FFFFFF";
+        document.getElementById("profilePict").style.border ="1px solid #FFFFFF";
         document.getElementById("profilePict").style.width ="80%";
         document.getElementById("profilePict").style.height ="80%";
         document.getElementById("profilePict").style.marginTop ="8%";
@@ -70,7 +70,7 @@ function scrollFunction() {
             document.getElementById("profileImageOutline").style.width ="50px";
             document.getElementById("profileImageOutline").style.height ="50px";
             document.getElementById("profileImageOutline").style.border ="2px solid #990000";
-            document.getElementById("profilePict").style.border ="0.5px solid #FFFFFF";
+            document.getElementById("profilePict").style.border ="1px solid #FFFFFF";
             document.getElementById("profilePict").style.width ="80%";
             document.getElementById("profilePict").style.height ="80%";
             document.getElementById("profilePict").style.marginTop ="8%";
@@ -131,7 +131,7 @@ function scrollFunction() {
         document.getElementById("profileImageOutline").style.width ="50px";
         document.getElementById("profileImageOutline").style.height ="50px";
         document.getElementById("profileImageOutline").style.border ="2px solid #990000";
-        document.getElementById("profilePict").style.border ="0.5px solid #FFFFFF";
+        document.getElementById("profilePict").style.border ="1px solid #FFFFFF";
         document.getElementById("profilePict").style.width ="80%";
         document.getElementById("profilePict").style.height ="80%";
         document.getElementById("profilePict").style.marginTop ="8%";
