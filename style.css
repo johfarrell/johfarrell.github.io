@@ -501,6 +501,9 @@ body{
 #portoLooke{
     background-image: url(./image/porto_looke.png);
 }
+#portoStatsgen{
+    background-image: url(./image/porto_statsgen.png);
+}
 .experienceContainer{
     width: 80%;
     height: fit-content;
