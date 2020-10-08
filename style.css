@@ -183,7 +183,7 @@ body{
     align-items: center;
     transition: 0.5s;
     padding-bottom: 150px;
-    background-image: url(./image/AboutMeBG.jpg);
+    background-image: url(./image/AboutMeBG.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -487,22 +487,22 @@ body{
     border: 2px solid white;
 }
 #portoLazynote{
-    background-image: url(./image/porto_lazynote.png);
+    background-image: url(./image/porto_lazynote.webp);
 }
 #portoSudutmeong{
-    background-image: url(./image/porto_sudutmeong.png);
+    background-image: url(./image/porto_sudutmeong.webp);
 }
 #portoBCA{
-    background-image: url(./image/porto_bca.png);
+    background-image: url(./image/porto_bca.webp);
 }
 #portoMinimalistfintech{
-    background-image: url(./image/porto_minimalistfintech.png);
+    background-image: url(./image/porto_minimalistfintech.webp);
 }
 #portoLooke{
-    background-image: url(./image/porto_looke.png);
+    background-image: url(./image/porto_looke.webp);
 }
 #portoStatsgen{
-    background-image: url(./image/porto_statsgen.png);
+    background-image: url(./image/porto_statsgen.webp);
 }
 .experienceContainer{
     width: 80%;
